@@ -1,0 +1,14 @@
+<%-include("partials/header")-%>
+
+<h1>Compose</h1>
+<hr>
+
+<form class="" action="/compose" method="post">
+	<label>Title</label>
+	<textarea class="blog-title" placeholder="Blog's Title" name="newBlogTitle" autocomplete="off" rows="1" cols="1" style="width:100% ; resize:none" ></textarea>
+	<label>Blog</label>
+	<textarea class="new-blog" placeholder="Start writing" name="newBlog" autocomplete="off" rows="5" cols="5" style="width:100%"></textarea>
+	<button class="btn btn-lg btn-primary" type="submit" name="submitButton">Publish</button>
+</form>
+
+<%-include("partials/footer")-%>
